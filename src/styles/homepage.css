@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 10px;
+    text-decoration: none;
+    text-decoration-color: #000;
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+html{
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+   
+}
+:root{
+    --bleu:#00CBE9;
+    --blackFooter:#37362F;
+    --noir:#000;
+    --box-shadow:0 1.5rem 1rem rgba(0,0,0,.1); 
+    --box-shadow-top:0 0 2rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,0.1);
+    --border-input:.1rem solid rgba(0,0,0,0.1);
+    --outiline:0.1rem solid rgba(0,0,0,0.1);
+    --outiline-hover:.2rem solid var(--black);
+    --radius:1rem;
+    --color-border:rgba(0,0,0,0.1);
+
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.home .header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top:2rem;
+    width: 100vw;
+}
+.home .header .introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 50vw;
+    margin-top: 8rem;
+    /* background-color: #000; */
+}
+.home .header .introduction h1{
+    font-size: 2.8rem;
+    font-weight:900;
+    color: var(--blackFooter);
+    text-align: start;
+}
+.home .header .introduction h5{
+    font-size: 2.4rem;
+    font-weight:500;
+    color: var(--blackFooter);
+    margin-bottom: 5rem;
+}
+.home .header .introduction p{
+    line-height:2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform:none;
+    text-align: start;
+}
+.p-color{
+    line-height:2rem;
+    font-size:1.5rem;
+    font-weight: 300;
+    text-transform:none;
+    color: var(--bleu);
+}
+.home .header .introduction a button{
+    background: var(--bleu);
+    border-radius: var(--radius);
+    font-size: 1.5rem;
+    width:20rem;
+    height: 5rem;
+    color: white;
+    margin-top: 3rem;
+}
+.home .header  .gif{
+    /* margin-right:4rem; */
+    width: 50vw;
+    margin-bottom: 7rem;
+}
+.home .header  .gif img{
+    width:40vw;
+    height: 60vh;
+}
+

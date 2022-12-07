@@ -1,0 +1,18 @@
+.chevrons{
+    width: 100vw;
+    height:8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.chevron{
+    color: #000;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+.chevronEnabled{
+    cursor: not-allowed;
+}
