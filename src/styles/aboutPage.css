@@ -61,7 +61,7 @@ html{
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    margin-top: 2.3rem;
+    margin-top: 1rem;
 }
 .about .about-me  .introduction h1{
     font-size: 2.8rem;
@@ -93,4 +93,15 @@ html{
 }
 .about .chevron{
   margin-top: 4rem;
+}
+.about .about-me .introduction a{
+   
+    text-transform:none;
+    text-decoration: none;
+    color: var(--bleu);
+}
+.about .about-me .introduction a span{
+    line-height:2rem;
+    font-size:1.5rem;
+    font-weight: 300;
 }
