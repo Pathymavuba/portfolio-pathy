@@ -20,7 +20,7 @@ const Homepage = () => {
             travailler en équipe .  <br/> Je sais travailler et gérer avec soin toutes
             les tâches qui me sont confiées.
           </p>
-          <a href=""><button>Télecharger mon CV</button></a>
+          <a href="/"><button>Télecharger mon CV</button></a>
         </div>
         <div className="gif">
             <img src={gift} alt="gift"  />

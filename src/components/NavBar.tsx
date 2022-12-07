@@ -6,8 +6,8 @@ const NavBar = () => {
     <div className='container navbar'>
       <h3 className="logo">M.Pathy</h3>
       <div className="menu">
-            <a href="#accueil">Accueil</a>
-            <a href="#aboutme">A Propos</a>
+            <a href="/accueil">Accueil</a>
+            <a href="/about">A Propos</a>
             <a href="#messervices">services</a>
             <a href="#mesrealisations">Réalisatons</a>
             <a href="#contactez-moi"><button>contact</button></a>
