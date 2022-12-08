@@ -1,9 +1,9 @@
-import React from 'react';
 import './App.css';
 import AboutPage from './pages/AboutPage';
 import Homepage from './pages/Homepage';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import SkillsPage from './pages/SkillsPage';
+import ServicePage from './pages/ServicePage';
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <Route path='/accueil'  element={<Homepage/>} />
         <Route path='/about'  element={<AboutPage/>} />
         <Route path='/compétences'  element={<SkillsPage/>} />
+        <Route path='/services'  element={<ServicePage />} />
         <Route path='*' element={<Navigate to='/accueil'/>} />
       </Routes>
     
