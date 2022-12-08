@@ -44,7 +44,7 @@ html{
     margin-top:1rem;
     width: 100vw;
 }
-.mybtn{
+.mybutn{
     color:var(--bleu);
     background-color: white;
     border: 2px solid var(--bleu);
@@ -54,7 +54,7 @@ html{
     font-size: 1.5rem;
     cursor: pointer;
 }
-.mybtn:hover{
+.mybutn:hover{
     background-color:var(--bleu);
     color:white
 }

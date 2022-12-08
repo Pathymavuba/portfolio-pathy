@@ -22,7 +22,7 @@ const AchievementPage = () => {
               <h4>Quiz App</h4>
               <img className="appli" src={app} alt="" />
               <a href="/">
-                <button className="mybtn">en savoir plus</button>
+                <button className="mybutn">en savoir plus</button>
               </a>
             </div>
           </SwiperSlide>
@@ -31,7 +31,7 @@ const AchievementPage = () => {
               <h4>Landing Page</h4>
               <img className="appli" src={landing} alt="" />
               <a href="/">
-                <button className="mybtn">en savoir plus</button>
+                <button className="mybutn">en savoir plus</button>
               </a>
             </div>
           </SwiperSlide>
