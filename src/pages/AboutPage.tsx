@@ -19,7 +19,7 @@ const AboutPage = () => {
         <div className='introduction'>
         <h1>Qui est Pathy Mavuba ? </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, corporis. Ex dignissimos exercitationem esse doloribus minima quas delectus illum vero quam, neque molestiae. Et mollitia, dignissimos ratione quas architecto odit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, corporis. Ex dignissimos exercitationem esse doloribus minima quas delectus illum vero quam, neque molestiae. Et mollitia, dignissimos ratione quas architecto odit. <br/> 
-        <a href="/"><span className='.p-color'>voir mes compétences</span></a></p>
+        <a href='/compétences'><span className='.p-color'>voir mes compétences</span></a></p>
         <div className="mybtn"><button>Contactez-moi</button></div>
         <div className='icone-rx'>
           <a href="/"><img className='icone' src={github} alt="" /></a>
