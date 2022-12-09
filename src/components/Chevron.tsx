@@ -1,12 +1,11 @@
-import React from 'react'
-import {BsChevronBarLeft,BsChevronBarRight } from "react-icons/bs";
 import './chevron.css'
+import {FiChevronLeft,FiChevronRight} from "react-icons/fi"
 
 const Chevron = () => {
   return (
     <div className="chevrons">
-    <BsChevronBarLeft className="chevron"/>
-    <BsChevronBarRight className="chevron"/>
+    <FiChevronLeft className="chevron"/>
+    <FiChevronRight className="chevron"/>
 </div>
   )
 }
