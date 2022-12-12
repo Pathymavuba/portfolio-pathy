@@ -23,11 +23,10 @@ const AboutPage = () => {
           <a href="https://github.com/Pathymavuba"><img className='icone' src={github} alt="" /></a>
           <a href="https://www.linkedin.com/in/pathy-mavuba-a35880237/"><img className='icone' src={linkdin} alt="" /></a>
           <a href="https://www.instagram.com/mavubapathy/?hl=fr"><img className='icone' src={instagram} alt="" /></a>
-          <a href="/"><img className='icone' src={facebook} alt="" /></a>
+          <a href="https://web.facebook.com/pathy.mavuba/"><img className='icone' src={facebook} alt="" /></a>
         </div>
         </div>
       </div>
-  
     </div>
   )
 }
