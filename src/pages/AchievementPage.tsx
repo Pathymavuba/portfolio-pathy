@@ -8,7 +8,9 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper";
 import app from "../assets/appquiz.png";
-import landing from "../assets/landingpage.png";
+import quizgame from "../assets/quizgame.png";
+import pathsound from "../assets/pathsound.png"
+import vlab from "../assets/vlab-dataview..png"
 import Chevron from "../components/Chevron";
 
 const AchievementPage = () => {
@@ -20,18 +22,36 @@ const AchievementPage = () => {
           <SwiperSlide>
             <div className="realisation">
               <h4>Quiz App</h4>
-              <img className="appli" src={app} alt="" />
-              <a href="/">
-                <button className="mybutn">en savoir plus</button>
+              <img className="mobile" src={app} alt="" />
+              <a href="https://quiz-app-three-gamma.vercel.app">
+                <button className="mybutn">voir l'application</button>
               </a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="realisation">
-              <h4>Landing Page</h4>
-              <img className="appli" src={landing} alt="" />
-              <a href="/">
-                <button className="mybutn">en savoir plus</button>
+              <h4>PathSound</h4>
+              <img className="tablet" src={pathsound} alt="" />
+              <a href="https://path-sound-web.vercel.app">
+                <button className="mybutn">voir l'application</button>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="realisation">
+              <h4>Quizgame</h4>
+              <img className="tablet" src={quizgame} alt="" />
+              <a href="https://quiz-app-react-chi-six.vercel.app/">
+                <button className="mybutn">voir l'application</button>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="realisation">
+              <h4>Vlab-dataview de vodacom</h4>
+              <img className="tablet" src={vlab} alt="" />
+              <a href="https://vlab-dataview.vercel.app/">
+                <button className="mybutn">voir l'application</button>
               </a>
             </div>
           </SwiperSlide>
