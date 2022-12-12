@@ -6,7 +6,7 @@ import design from "../assets/mondesign.png";
 
 const ServicePage = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       {/* <NavBar /> */}
       <h4 className="title-section">Mes <span>services</span> </h4>
       <div className="container service">

@@ -3,10 +3,11 @@ import "../styles/homepage.css";
 import gift from "../assets/developer-dribbble.gif";
 
 
+
 const Homepage = () => {
  
   return (
-    <div className="home">
+    <div className="home" id="accueil">
       <NavBar />
       <div className="container header">
         <div className="introduction">

@@ -8,7 +8,7 @@ import design from "../assets/design.png"
 
 const SkillsPage = () => {
   return (
-    <div className='skills'>
+    <div className='skills' id='compétences'>
         {/* <NavBar /> */}
         <h4 className="title-section">Mes <span>Compétences</span></h4>
         <div className='container skill' >

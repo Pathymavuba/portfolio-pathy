@@ -1,8 +1,7 @@
-import NavBar from "../components/NavBar";
 import "../styles/contactPage.css";
 import dialog from "../assets/Me-contacter.png";
-import Chevron from "../components/Chevron";
 import { useState } from "react";
+
 
 const ContactPage = () => {
   const [data, setData] = useState<string | any>({
@@ -36,7 +35,7 @@ const ContactPage = () => {
     };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       {/* <NavBar /> */}
       <h4 className="title-section">Contactez-<span>moi</span> </h4>
       <div className="container contact-details">
@@ -88,9 +87,6 @@ const ContactPage = () => {
           </div>
         </form>
       </div>
-      {/* <div>
-        <Chevron />
-      </div> */}
     </div>
   );
 };

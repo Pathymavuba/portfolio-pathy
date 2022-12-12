@@ -59,15 +59,29 @@ html{
     flex-wrap: wrap; 
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 6rem;
 }
 .services .service .details .detail{
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.services .service .details .detail:nth-child(2){
+   
+    margin-left: 9rem;
+
+}
+.services .service .details .detail:nth-child(4){
+   
+    margin-left: 9rem;
 
 }
 .services .service .details .detail h2{
     font-size: 2.5rem;
     font-weight: 600;
+    text-align: center;
 }
 .services .service .details .detail p{
     text-align: start;
@@ -95,10 +109,7 @@ html{
     background-color:var(--bleu);
     color:white
 }
-/* .services .chevron{
-    margin-top: 1rem;
 
-} */
 h4{
     text-align: center;
 }
