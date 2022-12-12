@@ -75,7 +75,7 @@ html{
 .navbar .menu a button{
     font-size:1.5rem;
     background: var(--bleu);
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     width:10rem;
     height:3rem;
     color: white;

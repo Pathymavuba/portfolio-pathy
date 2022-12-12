@@ -38,6 +38,7 @@ html{
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    overflow: hidden;
 }
 .home .header{
     display: flex;
@@ -86,7 +87,7 @@ html{
     border: 2px solid var(--bleu);
     width: 14rem;
     height: 4rem;
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     font-size: 1.5rem;
     cursor: pointer;
 }

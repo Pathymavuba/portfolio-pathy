@@ -38,6 +38,7 @@ html{
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    overflow: hidden;
 }
 .home .header{
     display: flex;
@@ -84,7 +85,7 @@ html{
 }
 .home .header .introduction a button{
     background: var(--bleu);
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     font-size: 1.5rem;
     width:20rem;
     height: 5rem;

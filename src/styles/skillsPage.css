@@ -38,6 +38,7 @@ html{
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    overflow: hidden;
 }
 .skills .skill{
     display: flex;

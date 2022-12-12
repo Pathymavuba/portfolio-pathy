@@ -6,6 +6,7 @@ import SkillsPage from './pages/SkillsPage';
 import ServicePage from './pages/ServicePage';
 import AchievementPage from './pages/AchievementPage';
 import "swiper/css/bundle";
+import ContactPage from './pages/ContactPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/compétences'  element={<SkillsPage/>} />
         <Route path='/services'  element={<ServicePage />} />
         <Route path='/réalisations'  element={<AchievementPage />} />
+        <Route path='/contact'  element={<ContactPage />} />
         <Route path='*' element={<Navigate to='/accueil'/>} />
       </Routes>
     

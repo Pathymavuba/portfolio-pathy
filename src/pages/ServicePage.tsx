@@ -48,7 +48,9 @@ const ServicePage = () => {
           </div>
         </div>
         <div className="mybtn">
+          <a href="/contact">
           <button>Contactez-moi</button>
+          </a>
         </div>
       </div>
       <div className="chevron">

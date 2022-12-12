@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 10px;
+    text-decoration: none;
+    text-decoration-color: #000;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    outline: none;
+    border: none;
+    text-transform:none;
+    transition: all 0.2s linear;
+}
+html{
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+   
+}
+:root{
+    --bleu:#00CBE9;
+    --blackFooter:#37362F;
+    --noir:#000;
+    --box-shadow:0 1.5rem 1rem rgba(0,0,0,.1); 
+    --box-shadow-top:0 0 2rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,0.1);
+    --border-input:.1rem solid rgba(0,0,0,0.1);
+    --outiline:0.1rem solid rgba(0,0,0,0.1);
+    --outiline-hover:.2rem solid var(--black);
+    --radius:1rem;
+    --color-border:rgba(0,0,0,0.1);
+
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    overflow: hidden;
+}
+.contact .contact-details{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100vw;
+}
+.contact .contact-details  .contact-picture{
+    width: 50vw;
+    margin-bottom: 7rem;
+}
+.contact .contact-details .contact-picture img{
+    width:30vw;
+    height: 60vh;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    width: 50vw;
+    gap: 2rem;
+}
+.inputgroup{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid var(--bleu);
+    position: relative;
+}
+/* .mylabelName{
+    position: absolute;
+    top: 20%;
+    left:1rem;
+    font-size: 1.4rem;
+    color: var(--blackFooter);
+    display: none;
+} */
+.inputgroup input{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+/* .inputgroup input:focus ~.mylabelName{
+    display: block;
+    position: absolute;
+    top: -10px;
+    padding: 0 5px;
+    left: 5px;
+    background-color: #fff;
+    font-size: 1.4rem;
+} */
+/* .inputgroup input:focus ~input::placeholder{
+    color: white;
+} */
+
+/* .mylabelEmail{
+    position: absolute;
+    top: 20%;
+    left:1rem;
+    font-size: 1.4rem;
+    color: var(--blackFooter);
+} */
+/* .inputgroup input:focus ~.mylabelEmail{
+    display: block;
+    position: absolute;
+    top: -10px;
+    padding: 0 5px;
+    left: 5px;
+    background-color: #fff;
+    font-size: 1.4rem;
+} */
+
+.input-text-area{
+    width: 70%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid var(--bleu);
+    padding: 1rem;
+    font-size: 1.4rem;
+
+}
+.message{
+    width: 100%;
+    height: 100%;
+}
+/* .mylabelMessage{
+    position: absolute;
+    left:78rem;
+    font-size: 1.4rem;
+    color: var(--blackFooter);
+    bottom:28rem;
+}
+.input-text-area textarea:focus ~.mylabelMessage{
+    display:none;
+} */
+
+button{
+    background: var(--bleu);
+    border-radius: var(--radius);
+    font-size: 1.5rem;
+    width:100%;
+    height: 5rem;
+    color: white;
+    margin-top: 3rem;
+}

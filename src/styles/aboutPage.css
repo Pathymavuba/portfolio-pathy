@@ -38,6 +38,7 @@ html{
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    overflow: hidden;
 }
 .about .about-me{
     display: flex;
@@ -47,7 +48,7 @@ html{
     width: 100vw;
 
 }
-.about .header  .picture{
+.about .about-me  .picture{
     /* margin-right:4rem; */
     width: 50vw;
     margin-bottom: 7rem;
@@ -79,7 +80,7 @@ html{
 }
 .about .about-me .introduction .mybtn button{
     background: var(--bleu);
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     font-size: 1.5rem;
     width:20rem;
     height: 5rem;
@@ -93,7 +94,7 @@ html{
     gap: 10rem;
 }
 .about .chevron{
-  margin-top: 4rem;
+ margin-bottom: 2rem;
 }
 .about .about-me .introduction a{
    
