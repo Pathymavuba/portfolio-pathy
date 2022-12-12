@@ -1,10 +1,10 @@
-import React from "react";
 import NavBar from "../components/NavBar";
 import "../styles/homepage.css";
 import gift from "../assets/developer-dribbble.gif";
-import Chevron from "../components/Chevron";
+
 
 const Homepage = () => {
+ 
   return (
     <div className="home">
       <NavBar />
@@ -32,7 +32,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <Chevron />
+      {/* <Chevron /> */}
     </div>
   );
 };

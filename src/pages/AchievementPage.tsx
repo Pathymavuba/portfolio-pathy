@@ -1,4 +1,3 @@
-import NavBar from "../components/NavBar";
 import "../styles/achivementPage.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,12 +10,13 @@ import app from "../assets/appquiz.png";
 import quizgame from "../assets/quizgame.png";
 import pathsound from "../assets/pathsound.png"
 import vlab from "../assets/vlab-dataview..png"
-import Chevron from "../components/Chevron";
+
 
 const AchievementPage = () => {
   return (
     <div className="achievement">
-      <NavBar />
+      {/* <NavBar /> */}
+      <h4 className="title-section">Mes <span>réalisations</span></h4>
       <div className="container slider">
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
@@ -58,7 +58,7 @@ const AchievementPage = () => {
         </Swiper>
       </div>
       <div className="chevron">
-        <Chevron />
+        {/* <Chevron /> */}
       </div>
     </div>
   );

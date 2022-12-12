@@ -1,15 +1,14 @@
-import NavBar from "../components/NavBar";
 import "../styles/servicePage.css";
 import code from "../assets/code.png";
 import phone from "../assets/iPhone.png";
 import car from "../assets/car.png";
 import design from "../assets/mondesign.png";
-import Chevron from "../components/Chevron";
 
 const ServicePage = () => {
   return (
     <div className="services">
-      <NavBar />
+      {/* <NavBar /> */}
+      <h4 className="title-section">Mes <span>services</span> </h4>
       <div className="container service">
         <div className="details">
           <div className="detail">
@@ -54,7 +53,7 @@ const ServicePage = () => {
         </div>
       </div>
       <div className="chevron">
-        <Chevron />
+        {/* <Chevron /> */}
       </div>
     </div>
   );

@@ -38,15 +38,15 @@ html{
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    overflow: hidden;
+    /* overflow-y: scroll; */
 }
 .home .header{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    margin-top:2rem;
     width: 100vw;
 }
+
 .home .header .introduction{
     display: flex;
     flex-direction: column;
@@ -101,4 +101,5 @@ html{
     width:40vw;
     height: 60vh;
 }
+
 

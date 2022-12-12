@@ -154,3 +154,12 @@ button{
     color: white;
     margin-top: 3rem;
 }
+.title-section {
+    font-size: 3rem;
+    font-weight:700;
+}
+.title-section  span{
+    font-size: 3rem;
+    font-weight:700;
+    color: var(--bleu);
+}

@@ -110,3 +110,13 @@ html{
     object-fit: cover;
   }
     /* slider */
+
+    .title-section {
+        font-size: 3rem;
+        font-weight:700;
+    }
+    .title-section  span{
+        font-size: 3rem;
+        font-weight:700;
+        color: var(--bleu);
+    }

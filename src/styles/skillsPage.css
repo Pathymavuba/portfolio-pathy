@@ -74,6 +74,10 @@ html{
     width: 50%;
     
 }
+.skills .skill .mySkill h1{
+    text-align: center;
+    margin-top: 7rem;
+}
 .skills .skill .mySkill .details .detail li{
     font-size: 2rem;
 }
@@ -81,7 +85,7 @@ html{
     width: 10rem;
     height: 10rem;
     position: absolute;
-    top: 11.3rem;
+    top: 260rem;
     left: 24rem;
     
 }
@@ -89,7 +93,7 @@ html{
     width: 10rem;
     height: 10rem;
     position: absolute;
-    top: 11.3rem;
+    top: 260rem;
     left: 62.5rem;
 
 }
@@ -97,7 +101,16 @@ html{
     width: 10rem;
     height: 10rem;
     position: absolute;
-    top: 11.3rem;
+    top: 260rem;
     left: 103rem;
 
+}
+.title-section {
+    font-size: 3rem;
+    font-weight:700;
+}
+.title-section  span{
+    font-size: 3rem;
+    font-weight:700;
+    color: var(--bleu);
 }

@@ -11,7 +11,8 @@ import Chevron from '../components/Chevron'
 const AboutPage = () => {
   return (
     <div className='about'>
-      <NavBar />
+      {/* <NavBar /> */}
+      <h4 className='title-section'>A <span>Propos</span></h4>
       <div className='container about-me'>
         <div className='picture'>
           <img src={photo} alt="ok"  />
@@ -30,7 +31,7 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="chevron">
-      <Chevron/>
+      {/* <Chevron/> */}
       </div>
     </div>
   )

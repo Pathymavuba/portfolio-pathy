@@ -95,7 +95,20 @@ html{
     background-color:var(--bleu);
     color:white
 }
-.services .chevron{
+/* .services .chevron{
     margin-top: 1rem;
 
+} */
+h4{
+    text-align: center;
+}
+.title-section {
+    font-size: 3rem;
+    font-weight:700;
+
+}
+.title-section  span{
+    font-size: 3rem;
+    font-weight:700;
+    color: var(--bleu);
 }

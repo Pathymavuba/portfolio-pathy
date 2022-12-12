@@ -37,7 +37,8 @@ const ContactPage = () => {
 
   return (
     <div className="contact">
-      <NavBar />
+      {/* <NavBar /> */}
+      <h4 className="title-section">Contactez-<span>moi</span> </h4>
       <div className="container contact-details">
         <div className="contact-picture">
           <img src={dialog} alt="" />
@@ -87,9 +88,9 @@ const ContactPage = () => {
           </div>
         </form>
       </div>
-      <div>
+      {/* <div>
         <Chevron />
-      </div>
+      </div> */}
     </div>
   );
 };

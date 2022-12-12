@@ -1,15 +1,16 @@
-import NavBar from '../components/NavBar'
+// import NavBar from '../components/NavBar'
 import '../styles/skillsPage.css'
 import frontend from "../assets/frontend.png"
 import backend from "../assets/Group 1 (1).png"
 import design from "../assets/design.png"
-import Chevron from '../components/Chevron'
+// import Chevron from '../components/Chevron'
 
 
 const SkillsPage = () => {
   return (
     <div className='skills'>
-        <NavBar />
+        {/* <NavBar /> */}
+        <h4 className="title-section">Mes <span>Compétences</span></h4>
         <div className='container skill' >
             <div className="mySkill">
               <img className='frontend'  src={frontend} alt="" />
@@ -50,7 +51,7 @@ const SkillsPage = () => {
               </div>
             </div>
         </div>
-        <Chevron />
+        {/* <Chevron /> */}
 
     </div>
   )
