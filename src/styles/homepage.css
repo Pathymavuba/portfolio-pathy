@@ -34,10 +34,10 @@ html{
 }
 .home{
     width: 100%;
-    height: 100vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    /* column-gap:10rem; */
     /* overflow-y: scroll; */
 }
 .home .header{
@@ -45,6 +45,7 @@ html{
     flex-direction: row;
     justify-content:space-between;
     width: 100vw;
+    height: 90%;
 }
 
 .home .header .introduction{
@@ -54,7 +55,7 @@ html{
     align-items: flex-start;
     gap: 1rem;
     width: 50vw;
-    margin-top: 8rem;
+    margin-top: 14rem;
 }
 .home .header .introduction h1{
     font-size: 2.8rem;
@@ -95,11 +96,14 @@ html{
 .home .header  .gif{
     /* margin-right:4rem; */
     width: 50vw;
-    margin-bottom: 7rem;
+    height: 80vh;
+    /* margin-bottom: 5rem; */
 }
 .home .header  .gif img{
     width:40vw;
     height: 60vh;
+    margin-top: 7rem;
+    
 }
 
 

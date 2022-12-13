@@ -9,11 +9,12 @@ import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 
 
+
+
 function App() {
   
   return (
-    <div className="App">
-
+    <div className="App" >
       <Homepage />
        <AboutPage/>
       <ServicePage />

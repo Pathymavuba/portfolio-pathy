@@ -32,16 +32,28 @@ html{
     --color-border:rgba(0,0,0,0.1);
 
 }
+.navbarContainer{
+    width:100%;
+    height:11vh ;
+    z-index:1000; 
+    position: fixed !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .navbar{
     position:fixed;
     display:flex;
     flex-direction:row;
     width: 100vw;
-    height: 11vh;
+    height: 100%;
     /* z-index:1000; */
     background:white;
     padding: 1.5rem 0;
+    
+
 }
 /* .scrollage{
     z-index:1000; 
@@ -89,3 +101,13 @@ html{
 .disparaître{
     display:none;
 }
+/* .scrollage{
+    z-index:1000; 
+    border-bottom:var(--outiline); 
+    position:fixed !important;
+  }
+.removeScrolling{
+    border-bottom:none; 
+    position:relative
+
+} */
