@@ -75,9 +75,17 @@ html{
     position: relative;
     bottom: 3.1rem;
     font-size: 1.5rem;
+    
+}
+.btn-menu{
     color: black;
     line-height: 2rem;
     text-decoration:none;  
+}
+.btn-menu-click{
+    color: var(--bleu);
+    text-decoration:underline;
+    text-decoration-color:var(--bleu) ;
 }
 .navbar .menu a:hover{
     color: var(--bleu);

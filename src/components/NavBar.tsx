@@ -1,33 +1,48 @@
-import './navbar.css'
+import { useState } from "react";
+import "./navbar.css";
 
-// window.addEventListener('scroll',(e)=>{
-//   const navbar:HTMLElement= document.getElementById('navbar')
-//   navbar.classList.add('scrollage');
-  
-//  //  console.log(window.scrollY)
- 
-//   if (window.scrollY < 30) {
-//       navbar.classList.remove("scrollage");
-//   }
-//  })
-//  'container navbar'
-// {window.scrollY > 30 ? 'container navbar removeScrolling' : 'container navbar scrollage'}
- 
 const NavBar = () => {
+  const [hover, setHover] = useState<string>("accueil");
   return (
-    <div className='navbarContainer'>
-    <div className='container navbar'>
-      <h3 className="logo">M.Pathy</h3>
-      <div className="menu">
-            <a href="#accueil">Accueil</a>
-            <a href="#apropos">A Propos</a>
-            <a href="#services">services</a>
-            <a href="#réalisations">Réalisatons</a>
-            <a href="#contact"><button>contact</button></a>
+    <div className="navbarContainer">
+      <div className="container navbar">
+        <h3 className="logo">M.Pathy</h3>
+        <div className="menu">
+          <a
+            href="#accueil"
+            className={hover === "accueil" ? "btn-menu-click" : "btn-menu"}
+            onClick={() => setHover("accueil")}
+          >
+            Accueil
+          </a>
+          <a
+            href="#apropos"
+            className={hover === "apropos" ? "btn-menu-click" : "btn-menu"}
+            onClick={() => setHover("apropos")}
+          >
+            A Propos
+          </a>
+          <a
+            href="#services"
+            className={hover === "services" ? "btn-menu-click" : "btn-menu"}
+            onClick={() => setHover("services")}
+          >
+            services
+          </a>
+          <a
+            href="#réalisations"
+            className={hover === "realisations" ? "btn-menu-click" : "btn-menu"}
+            onClick={() => setHover("realisations")}
+          >
+            Réalisatons
+          </a>
+          <a href="#contact" onClick={() => setHover("contact")}>
+            <button>contact</button>
+          </a>
         </div>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
