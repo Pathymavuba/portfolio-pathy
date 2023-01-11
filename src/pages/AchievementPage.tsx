@@ -20,6 +20,15 @@ const AchievementPage = () => {
       <h4 className="title-section">Mes <span>réalisations</span></h4>
       <div className="container slider">
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <SwiperSlide>
+            <div className="realisation">
+              <h4>Captur photography</h4>
+              <img className="mobile" src={captur} alt="" />
+              <a href="https://captur-photography-ten.vercel.app/">
+                <button className="mybutn">voir l'application</button>
+              </a>
+            </div>
+          </SwiperSlide>
           <SwiperSlide>
             <div className="realisation">
               <h4>Quiz App</h4>
@@ -52,15 +61,6 @@ const AchievementPage = () => {
               <h4>Vlab-dataview de vodacom</h4>
               <img className="tablet" src={vlab} alt="" />
               <a href="https://vlab-dataview.vercel.app/">
-                <button className="mybutn">voir l'application</button>
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="realisation">
-              <h4>Captur photography</h4>
-              <img className="tablet" src={captur} alt="" />
-              <a href="https://captur-photography-ten.vercel.app/">
                 <button className="mybutn">voir l'application</button>
               </a>
             </div>
