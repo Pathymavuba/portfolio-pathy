@@ -10,6 +10,7 @@ import app from "../assets/appquiz.png";
 import quizgame from "../assets/quizgame.png";
 import pathsound from "../assets/pathsound.png"
 import vlab from "../assets/vlab-dataview..png"
+import captur from "../assets/captur.png"
 
 
 const AchievementPage = () => {
@@ -51,6 +52,15 @@ const AchievementPage = () => {
               <h4>Vlab-dataview de vodacom</h4>
               <img className="tablet" src={vlab} alt="" />
               <a href="https://vlab-dataview.vercel.app/">
+                <button className="mybutn">voir l'application</button>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="realisation">
+              <h4>Captur photography</h4>
+              <img className="tablet" src={captur} alt="" />
+              <a href="https://captur-photography-ten.vercel.app/">
                 <button className="mybutn">voir l'application</button>
               </a>
             </div>
