@@ -47,7 +47,7 @@ const ServicePage = () => {
           </div>
         </div>
         <div className="mybtn">
-          <a href="/contact">
+          <a href="#contact">
           <button>Contactez-moi</button>
           </a>
         </div>
